@@ -1,0 +1,18 @@
+button {
+	height: 48px;
+	width: 48px;
+	background: transparent;
+	border: none;
+    cursor: pointer;
+}
+
+/* 
+svg {
+	color: #0000;
+	fill: #0000;
+} */
+
+/* svg:hover {
+	color: var(--textLink);
+	fill: var(--textLink);
+} */

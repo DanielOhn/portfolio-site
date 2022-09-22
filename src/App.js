@@ -1,4 +1,7 @@
 import './App.css'
+import Github from "./Social/Github.js"
+import Twitter from "./Social/Twitter.js"
+import Twitch from "./Social/Twitch.js"
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
         <p>Link to my resume</p>
       </div>
       <div className='social'>
-        Twitter, Github, Twitch
+        <p>Twitter, Github, Twitch</p>
+        <Github />
+        <Twitter />
+        <Twitch />
       </div>
       <div className='projects'>
         <h2>Projects</h2>
@@ -25,7 +31,7 @@ function App() {
           Poké App - react website that pulls from pokemon api
         </div>
         <div>
-          Pong - made pong with pixijs 
+          Pong - made pong with pixijs
         </div>
         <div>
           kayne tweets - react website that pulls api for kanye tweets
