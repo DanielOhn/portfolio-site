@@ -3,6 +3,8 @@ import Github from "./Social/Github.js"
 import Twitter from "./Social/Twitter.js"
 import Twitch from "./Social/Twitch.js"
 
+import Project from './Components/Project'
+
 function App() {
   return (
     <div className="App">
@@ -14,16 +16,13 @@ function App() {
         <p>Link to my resume</p>
       </div>
       <div className='social'>
-        <p>Twitter, Github, Twitch</p>
         <Github />
         <Twitter />
         <Twitch />
       </div>
       <div className='projects'>
         <h2>Projects</h2>
-        <div>
-          brisketbot - a discord bot made with discordjs
-        </div>
+        <Project name="BrisketBot" url="/" desc="Discord bot made with discordjs." />
         <div>
           possum pals - imageboard made with a pern stack
         </div>
