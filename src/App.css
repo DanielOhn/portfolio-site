@@ -2,11 +2,41 @@
   text-align: center;
   width: 100%;
   margin: 0;
+  font-family: monospace;
+
 }
 
+h1, h2, h3 {
+  color: var(--header-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  color: var(--header-color);
+}
+
+svg:hover {
+  color: var(--header-color);
+  fill: var(--url-color);
+}
+
+body {
+  --bg-color: #01161E;
+  --header-color: #598392;
+  --text-color: #DEE5E5;
+  --url-color: #C9E4CA;
+
+  background-color: var(--bg-color);
+}
 
 .projects {
   width: 50%;
   margin: auto;
 }
-

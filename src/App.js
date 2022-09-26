@@ -18,13 +18,14 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>Daniel Ohn</h1>
+        <h1>daniel.ohn</h1>
       </div>
       <div className='content'>
-        <p>Software Developer, currently looking for work</p>
+        <p>Software Developer</p>
         <p>Link to my resume</p>
       </div>
       <div className='social'>
+        <p>Find me on these:</p>
         <Github />
         <Twitter />
         <Twitch />
