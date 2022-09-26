@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "name": "BrisketBot",
+            "url": "/",
+            "desc": "A discord bot created with Discordjs and hosted on Heroku.",
+            "github": ""
+        },
+        {
+            "name": "Possum Pals",
+            "url": "https://possum-pals.herokuapp.com",
+            "desc": "An anonymous imageboard created with a PERN stack and hosted on Heroku.",
+            "github": "https://github.com/DanielOhn/possum-pals"
+        },
+        {
+            "name": "Poké App",
+            "url": "https://poke-site.netlify.app",
+            "desc": "A website created with React that utilizes a Pokemon API.",
+            "github": "https://github.com/DanielOhn/pokemon-site"
+        },
+        {
+            "name": "Painting App",
+            "url": "https://painting-app.netlify.app",
+            "desc": "A website created with React that allows the user to draw on a canvas.",
+            "github": "https://github.com/DanielOhn/project7-pixel-paint"
+        },
+        {
+            "name": "Pong",
+            "url": "https://pong-pixijs.netlify.app",
+            "desc": "Pong made in PixiJS and hosted on Netlify.",
+            "github": "https://github.com/DanielOhn/pixijs-pong"
+        },
+        {
+            "name": "Kanye West",
+            "url": "https://kanye-tweet-quotes.netlify.app",
+            "desc": "A web app that randomly pulls a Kanye West tweet.",
+            "github": "https://github.com/DanielOhn/Project6-kanye-quotes"
+        }
+    ]
+}

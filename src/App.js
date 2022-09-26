@@ -1,11 +1,20 @@
+import { useEffect, useState } from 'react'
+
 import './App.css'
 import Github from "./Social/Github.js"
 import Twitter from "./Social/Twitter.js"
 import Twitch from "./Social/Twitch.js"
 
 import Project from './Components/Project'
+const data = require("./Data/projects.json");
 
 function App() {
+  const [projects, setProjects] = useState([])
+
+  useEffect(() => {
+    setProjects(data.projects);
+  }, [projects])
+
   return (
     <div className="App">
       <div className="header">
@@ -22,19 +31,17 @@ function App() {
       </div>
       <div className='projects'>
         <h2>Projects</h2>
-        <Project name="BrisketBot" url="/" desc="Discord bot made with discordjs." />
-        <div>
-          possum pals - imageboard made with a pern stack
-        </div>
-        <div>
-          Poké App - react website that pulls from pokemon api
-        </div>
-        <div>
-          Pong - made pong with pixijs
-        </div>
-        <div>
-          kayne tweets - react website that pulls api for kanye tweets
-        </div>
+        {projects.map((proj, i) => {
+          return (
+            <div key={i}>
+              <Project
+                name={proj.name}
+                url={proj.url}
+                desc={proj.desc}
+                github={proj.github}
+                key={i}
+              /></div>)
+        })}
       </div>
     </div>
   )
