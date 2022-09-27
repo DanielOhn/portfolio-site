@@ -55,6 +55,10 @@ a {
   color: var(--header-color);
 }
 
+a:hover {
+  color: var(--text-color);
+}
+
 @media screen and (min-width: 600px) {
 
   .projects {
