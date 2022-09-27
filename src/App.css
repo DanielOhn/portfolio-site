@@ -1,12 +1,27 @@
+:root {
+  --bg-color: #01161E;
+  --header-color: #598392;
+  --text-color: #DEE5E5;
+  --url-color: #C9E4CA;
+}
+
 .App {
   text-align: center;
   margin: 0;
   font-family: monospace;
+}
 
+h1 {
+  padding-top: 5vh;
 }
 
 h1, h2, h3 {
   color: var(--header-color);
+}
+
+h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 p {
@@ -27,20 +42,29 @@ svg:hover {
 }
 
 body {
-  --bg-color: #01161E;
-  --header-color: #598392;
-  --text-color: #DEE5E5;
-  --url-color: #C9E4CA;
-
   background-color: var(--bg-color);
 }
 
 .projects {
   margin: auto;
-  width: 500px;
+  width: 300px;
   align-items: center;
 }
 
-.projects a {
+a {
   color: var(--header-color);
+}
+
+@media screen and (min-width: 600px) {
+
+  .projects {
+    margin: auto;
+    width: 500px;
+    align-items: center;
+  }
+
+  .content {
+    width: 500px;
+    margin: auto;
+  }
 }

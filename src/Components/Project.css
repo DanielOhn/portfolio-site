@@ -12,6 +12,6 @@
 
 .Project {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     align-items: left;
 }

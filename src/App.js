@@ -23,7 +23,7 @@ function App() {
         <h1>daniel.ohn</h1>
       </div>
       <div className='content'>
-        <p>Software Developer</p>
+        <p>Hello, I'm a Software Developer whose main goal in life is to make cool stuff.  My main focus at the moment is creating PERN stack projects, and creating apps that I find intersting and fun.  I'm currently looking for work!</p>
         <a href={PDF} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
       <div className='social'>
