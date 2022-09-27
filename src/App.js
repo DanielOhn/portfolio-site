@@ -5,8 +5,10 @@ import Github from "./Social/Github.js"
 import Twitter from "./Social/Twitter.js"
 import Twitch from "./Social/Twitch.js"
 
+import PDF from "./Data/Resume.pdf";
 import Project from './Components/Project'
 const data = require("./Data/projects.json");
+
 
 function App() {
   const [projects, setProjects] = useState([])
@@ -22,7 +24,7 @@ function App() {
       </div>
       <div className='content'>
         <p>Software Developer</p>
-        <p>Link to my resume</p>
+        <a href={PDF} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
       <div className='social'>
         <p>Find me on these:</p>
