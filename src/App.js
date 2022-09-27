@@ -27,7 +27,6 @@ function App() {
         <a href={PDF} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
       <div className='social'>
-        <p>Find me on these:</p>
         <Github />
         <Twitter />
         <Twitch />
