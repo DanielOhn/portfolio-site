@@ -9,3 +9,9 @@
     margin-top: 0;
     text-align: left;
 }
+
+.Project {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+}

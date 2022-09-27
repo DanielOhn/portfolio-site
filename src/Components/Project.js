@@ -16,7 +16,7 @@ const Project = props => {
 
     return (
         <div className="Project">
-            {url !== "/" ? <a href={url} target="_blank" rel="noopener noreferrer"><h3>{name}</h3></a>
+            {url !== "/" ? <h3><a href={url} target="_blank" rel="noopener noreferrer">{name}</a></h3>
                 : <h3>{name}</h3>
             }
             <p>{desc}</p>
