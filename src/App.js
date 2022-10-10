@@ -29,7 +29,7 @@ function App() {
       <div className='social'>
         <Github />
         <Twitter />
-        <Twitch />
+        {/* <Twitch /> */}
       </div>
       <div className='projects'>
         <h2>Projects</h2>
